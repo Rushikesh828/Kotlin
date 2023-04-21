@@ -16,6 +16,14 @@ fun main() {
     println()
     println("Max are out of rect1 and rect2 is ${maxArea(rect1, rect2)}")
     println("Max are out of rect1, rect2 and circle is ${maxArea(rect1, rect2, circle)}")
+
+    val originalList = mutableListOf(1,2,3,4,5,6,7)
+    val originalArray = arrayOf(1,2,3,4,5,6,7)
+
+    val firstLastPrint = FirstLastPrint()
+    firstLastPrint.firstLastPrint(originalList)
+    firstLastPrint.firstLastPrint(originalArray)
+
 }
 
 fun maxArea(shape1 : Shape, shape2: Shape) : Double {

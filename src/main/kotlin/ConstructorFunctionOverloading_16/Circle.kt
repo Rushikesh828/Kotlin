@@ -1,5 +1,7 @@
 package ConstructorFunctionOverloading_16
 
+import kotlin.random.Random
+
 class Circle(
     private val radius : Double
 ) : Shape("Circle") {
