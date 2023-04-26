@@ -25,8 +25,4 @@ fun main() {
     } else{
         println("Number is not greater than one.")
     }
-
-
-
-
 }
